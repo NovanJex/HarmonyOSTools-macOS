@@ -35,7 +35,24 @@
 
 ---
 
-## 三、 macOS 快速开始
+---
+
+## 三、 界面预览（macOS 终端运行效果）
+
+### 1. 首页与连接引导界面
+![首页与连接引导](screenshots/01_home.png)
+
+### 2. 主菜单（`m1`：高频预装卸载 / 巅峰性能模式 / 系统禁更）
+![主菜单界面](screenshots/02_main_menu.png)
+
+### 3. 定制模式（`m2`：44 项系统组件 / `000` 一键还原 / `999` 安全精简向导）
+![定制模式界面](screenshots/03_custom_mode.png)
+
+### 4. 功能模式（`m5`：无线 ADB / 状态栏图标隐藏 / 强制高刷 / 后台白名单）
+![功能模式界面](screenshots/04_function_mode.png)
+---
+
+## 四、 macOS 快速开始
 
 ### 1. 手机端开启 USB 调试
 1. 打开手机 **设置** -> **关于手机** -> 连续点击 7 次 **版本号** 开启开发者模式。
@@ -47,7 +64,7 @@
 
 #### 方式一：通过 `git clone` 下载（推荐，自动保留执行权限）
 ```bash
-git clone https://github.com/<你的用户名>/HarmonyOSTools-macOS.git
+git clone https://github.com/NovanJex/HarmonyOSTools-macOS.git
 cd HarmonyOSTools-macOS
 ./启动鸿蒙工具箱.command
 ```
@@ -64,7 +81,7 @@ xattr -cr .
 
 ---
 
-## 四、 目录结构说明
+## 五、 目录结构说明
 
 ```text
 HarmonyOSTools-macOS/
@@ -79,7 +96,7 @@ HarmonyOSTools-macOS/
 
 ---
 
-## 五、 免责声明
+## 六、 免责声明
 
 1. 本工具通过 Android/HarmonyOS 官方标准 `adb` 接口执行操作，免 Root 且可随时通过定制模式中的 `000` 命令或恢复出厂设置装回，但搞机仍存在一定风险，**操作前请务必做好重要数据备份（尤其是使用 `m6` 瘦身模式或卸载输入法前）**。
 2. 任何因不当操作导致的数据丢失或系统异常，风险由使用者自行承担。

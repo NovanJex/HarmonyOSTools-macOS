@@ -5,3 +5,4 @@
 adb binary
 *.dylib binary
 *.pdf binary
+*.png binary
