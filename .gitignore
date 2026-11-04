@@ -1,0 +1,15 @@
+# 运行时自动生成的临时文件与本地操作记录
+result.txt
+result_translat.txt
+temp.txt
+系统后台白名单.txt
+操作记录.txt
+
+# 用户临时放入的待安装 APK
+*.apk
+
+# macOS 系统隐藏文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
